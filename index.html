@@ -2,9 +2,9 @@
 layout: default
 ---
 
+    <img src="/images/dragon.jpg" class="img-fluid" alt="Dragon" >
 {% for post in paginator.posts %}
 <div class="article">
-    <img src="/images/dragon.jpg" class="img-fluid" alt="Dragon" >
     <div class="well">
         <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
         {% if site.comments and post.comments %}
