@@ -13,7 +13,7 @@ url: https://ari6.github.io
 baseurl: ''
 
 # These can be '' to hide the Github or Gitlab nav buttons
-github: 'scotte/jekyll-clean'
+github: 'Ari6'
 gitlab: ''
 
 # Set this to your UA-# value, or '' to disable the block completely
@@ -28,7 +28,7 @@ comments: true
 isso: ''
 
 # Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
-disqus: ''
+disqus: 'ntlts'
 
 permalink: /:year/:month/:title
 paginate: 3
