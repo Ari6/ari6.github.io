@@ -6,15 +6,24 @@ layout: default
 {%for post in site.posts %}
     {% unless post.next %}
         <h1>{{ post.date | date: '%Y' }}</h1>
+        <h2>{{ post.date | date: '%B' }}</h2>
         <ul>
     {% else %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+
         {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
         {% if year != nyear %}
             </ul>
             <h1>{{ post.date | date: '%Y' }}</h1>
             <ul>
+        {% if month != nmonth %}
+            </ul>
+            <h2>{{ post.date | date: '%B' }}</h2>
+            <ul>
         {% endif %}
+        {% endif %}        
     {% endunless %}
     <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d" }} - {{ post.title }}</a></li>
 {% endfor %}
