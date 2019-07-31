@@ -16,13 +16,13 @@ hasNext() returns true if Scanner has next item.
 You can skip words if you set those up as delimiter.
 
 ```java
-     String input = "1 fish 2 fish red fish blue fish";
-     Scanner s = new Scanner(input).useDelimiter("\\s*fish\\s*");
-     System.out.println(s.nextInt());
-     System.out.println(s.nextInt());
-     System.out.println(s.next());
-     System.out.println(s.next());
-     s.close(); 
+ String input = "1 fish 2 fish red fish blue fish";
+ Scanner s = new Scanner(input).useDelimiter("\\s*fish\\s*");
+ System.out.println(s.nextInt());
+ System.out.println(s.nextInt());
+ System.out.println(s.next());
+ System.out.println(s.next());
+ s.close(); 
 ```
 
 Result:
@@ -35,19 +35,19 @@ Result:
 
 ## List to array
 ```java
-	List<String> strList = new ArrayList<String>(Arrays.asList("This","is","a","list."));
-	String[] strArray = strList.toArray(new String[strList.size()]);
+List<String> strList = new ArrayList<String>(Arrays.asList("This","is","a","list."));
+String[] strArray = strList.toArray(new String[strList.size()]);
 ```
 
 ## array to List
 ```java
-	List<String> strList = new ArrayList<String>(Arrays.asList("This","is","a","list."));
+List<String> strList = new ArrayList<String>(Arrays.asList("This","is","a","list."));
 ```
 
 or
 
 ```java
-	List<String> strList = Arrays.asList("This", "is", "a", "list.");
+List<String> strList = Arrays.asList("This", "is", "a", "list.");
 ```
 
 # array to stream
@@ -70,18 +70,23 @@ When you use primitive type array, Stream.of() and Arrays.stream() return differ
 
 Stream.of()
 
-|Modifier/Type|Description|
-|-|-|
-| static <T> Stream<T> | of(T... values)|
+|----------------------|-----------------|
+| Modifier/Type        |Description      |
+|----------------------|-----------------|
+| static <T> Stream<T> | of(T... values) |
+|----------------------|-----------------|
 
 Arrays.stream()
 
-Modifier/Type|Description
--|-
-static DoublStreamm | stream(double[] array)
-static IntStream | stream(int[] array)
-static LongStream | stream(long[] array)
-static <T> Stream<T>| stream(T[] array)
-
+```
+|----------------------|------------------------|
+| Modifier/Type        | Description            |
+|----------------------|------------------------|
+| static DoubleStream  | stream(double[] array) |
+| static IntStream     | stream(int[] array)    |
+| static LongStream    | stream(long[] array)   |
+| static <T> Stream<T> | stream(T[] array)      |
+|----------------------|------------------------|
+```
 
 Source : [https://docs.oracle.com/javase/8/docs/api/index.html](https://docs.oracle.com/javase/8/docs/api/index.html)
