@@ -4,7 +4,7 @@ Python has nonlocal and global for controlling variable scope. I think I should 
 
 nonlocal allows you to access variables whih are located outside of normal scope.
 
-```Python
+```python
 def nonlocal_test():
 	x = "test"
 	print("test: ", x)
