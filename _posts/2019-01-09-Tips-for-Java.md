@@ -70,11 +70,13 @@ When you use primitive type array, Stream.of() and Arrays.stream() return differ
 
 Stream.of()
 
+```
 |----------------------|-----------------|
 | Modifier/Type        |Description      |
 |----------------------|-----------------|
 | static <T> Stream<T> | of(T... values) |
 |----------------------|-----------------|
+```
 
 Arrays.stream()
 
