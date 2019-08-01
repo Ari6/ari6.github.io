@@ -1,3 +1,8 @@
+---
+layout: post
+categories: [Java, algorithm]
+---
+
 ```java
 int[] select_method(int[] a) {
 	int out[] = new int[a.length];
@@ -26,3 +31,5 @@ int[] select_method(int[] a) {
 ```
 
 I have separate finding minimum number and swap minimum and other elements. I thought I had to slide all other element so that I could use for as loop but I did not need to slide all element before the index where minimum was. What I had…
+
+Categories: Java, algorithm

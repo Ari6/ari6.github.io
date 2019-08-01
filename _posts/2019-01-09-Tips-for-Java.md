@@ -1,3 +1,7 @@
+---
+layout: post
+categories: [Java, tips]
+
 This is memo for programming quizes.
 
 
@@ -92,3 +96,5 @@ Arrays.stream()
 ```
 
 Source : [https://docs.oracle.com/javase/8/docs/api/index.html](https://docs.oracle.com/javase/8/docs/api/index.html)
+
+Categories: Java, tips

@@ -1,3 +1,8 @@
+---
+layout: post
+categories: [Python]
+---
+
 This is from my old memo #1.
 
 Python has nonlocal and global for controlling variable scope. I think I should avoid global and nonlocal without reasonable reason.
