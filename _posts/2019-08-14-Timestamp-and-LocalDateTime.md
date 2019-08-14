@@ -12,7 +12,7 @@ It returns an unexpected result.
 
 # What I did
 
-```Java
+```java
 Timestamp.valueOf(LocalDateTime.MIN);
 Timestamp.valueOf(LocalDateTime.MAX);
 ```
