@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-categories: [Java, kotlin, Android, JavaFX]
+categories: [Java, kotlin, Android]
 ---
 
 # Android app development
@@ -53,4 +53,4 @@ You need to descrie essential information about the app. Such as activity, servi
 * Data sharing with the other view is simpler but there are some ways to do.
 * ListView handling is different.
 
-categories: [Java, kotlin, Android, JavaFX]
+categories: [Java, kotlin, Android]
