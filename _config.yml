@@ -38,10 +38,10 @@ permalink: /:year/:month/:title
 paginate: 3
 
 highlighter: rouge
+markdown: kramdown
 syntax_highlighter_opts:
   block:
     line_numbers: true
-markdown: kramdown
 gems: ['jekyll-paginate']
 
 
