@@ -38,7 +38,12 @@ permalink: /:year/:month/:title
 paginate: 3
 
 highlighter: rouge
+syntax_highlighter_opts:
+  block:
+    line_numbers: true
 markdown: kramdown
 gems: ['jekyll-paginate']
+
+
 
 exclude: ['README.md', 'LICENSE']
