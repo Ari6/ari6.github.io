@@ -37,12 +37,6 @@ disqus: 'ntlts'
 permalink: /:year/:month/:title
 paginate: 3
 
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
 gems: ['jekyll-paginate']
 
 
