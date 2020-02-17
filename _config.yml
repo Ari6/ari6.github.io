@@ -1,11 +1,11 @@
 # Jekyll configuration
 
 name: Never too late to start  
-description: You cannot know everything, but you should try to know everything. Be honest, be humble, and be diligent.  
-author: <img src="/images/author.jpg" class="img-fluid" alt="author">  
+description: 'You cannot know everything, but you should try to know everything. Be honest, be humble, and be diligent.'  
+author: '<img src="/images/author.jpg" class="img-fluid" alt="author">  
 Name: Ari  
 Race: Australian Shepherd 
-Language: Dog, English, Japanese, Java, Python, C++, COBOL  
+Language: Dog, English, Japanese, Java, Python, C++, COBOL'  
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://ari6.github.io
